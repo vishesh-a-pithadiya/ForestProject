@@ -1,0 +1,13 @@
+loadImages(): - this remains as a static as there is a hastable holding the images, and the object acoonot iterate through a map if itselfs
+getImageList(): - Has to do with hashmaps which are not a direct object of any class
+setAplha(): - changing values for PImage which is not an editable class
+getImages(): - uses hashmap and does not have an object to encapsulate
+processImageLines(): - processing does not belong in any one class/ too high level
+clamp(): - uses ints and is too broad for a single class
+getCurrentImage(): -calls the general object class, so cannot be part of a more specific class
+parseEntity(): - not sure what this does and didnt want to move it in case of break
+all create functions - as a object cannot create itself
+getIntFromRange(): - a basic number operation
+getNumFromRange(): - a basic number operation
+
+
